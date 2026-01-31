@@ -21,7 +21,7 @@ export function Button({ title, ...rest }: ButtonProps) {
       {...rest}
     >
       <LinearGradient
-        colors={[colors.Lavender, colors.Peach]}
+        colors={[colors.Peach, colors.Red]}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 0 }}
         style={styles.buttonGradient}
