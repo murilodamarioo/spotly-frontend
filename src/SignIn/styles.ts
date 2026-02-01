@@ -12,7 +12,6 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    color: colors.Text,
     fontWeight: 'bold'
   },
   subtitle: {
