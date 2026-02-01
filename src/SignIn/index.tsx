@@ -7,6 +7,7 @@ import { Button } from '../components/Button'
 import { Input } from '../components/Input'
 
 import { colors } from '../themes/colors'
+import { ButtonText } from '../components/ButtonText'
 
 export function SignIn() {
   return (
@@ -33,12 +34,18 @@ export function SignIn() {
         iconName='lock'
       />
 
-      <Text style={styles.forgotPassword}>Forgot password?</Text>
+      <ButtonText style={styles.forgotPassword} name='Forgot password?' />
 
       <Button
         title='Sign In'
         onPress={() => { console.log('Sign In pressed') }}
       />
+
+      <ButtonText
+        name='Create an account'
+        onPress={() => { console.log('Sign Up pressed') }}
+      />
+
     </View>
   )
 }

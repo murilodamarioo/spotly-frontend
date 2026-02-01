@@ -17,7 +17,7 @@ export function Button({ title, ...rest }: ButtonProps) {
   return (
     <TouchableOpacity
       activeOpacity={0.7}
-      style={{ width: '100%' }}
+      style={styles.container}
       {...rest}
     >
       <LinearGradient
