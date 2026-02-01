@@ -3,9 +3,18 @@ import { colors } from '../../themes/colors'
 
 export const styles = StyleSheet.create({
   container: {
+    flexDirection: 'column',
+    width: '100%',
+    gap: 8,
+  },
+  label: {
+    fontSize: 14,
+    color: colors.Text,
+    marginBottom: 4,
+  },
+  inputWrapper: {
     flexDirection: 'row',
     alignItems: 'center',
-    width: '100%',
     height: 55,
     borderWidth: 1,
     borderColor: colors.Subtext0,

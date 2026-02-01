@@ -43,7 +43,7 @@ export function SignIn() {
 
       <ButtonText
         name='Create an account'
-        onPress={() => { console.log('Sign Up pressed') }}
+        onPress={() => { console.log('Create an account pressed') }}
       />
 
     </View>
