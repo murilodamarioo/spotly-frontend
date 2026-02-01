@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
   },
   buttonGradient: {
     width: '100%',
-    height: 55,
+    height: 50,
     borderRadius: 12,
     justifyContent: 'center',
     alignItems: 'center',

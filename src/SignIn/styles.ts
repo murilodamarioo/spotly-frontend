@@ -9,5 +9,20 @@ export const styles = StyleSheet.create({
     gap: 32,
     paddingHorizontal: 32,
     backgroundColor: colors.Base
+  },
+  title: {
+    fontSize: 24,
+    color: colors.Text,
+    fontWeight: 'bold'
+  },
+  subtitle: {
+    fontSize: 16,
+    color: colors.Subtext1,
+    fontWeight: 'normal'
+  },
+  forgotPassword: {
+    alignSelf: 'flex-end',
+    color: colors.Subtext1,
+    marginTop: -22,
   }
 })
